@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f4f4f4;
+}
+.image {
+  position: relative;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  padding: 2.5px;
+  border: 3px solid white;
+  margin-bottom: 10px;
+}
+.image .profile-img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  padding: 5px;
+}
+.profile-card {
+  max-width: 370px;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 24px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.profile-card .data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #333;
+}
+.data .name {
+  font-size: 22px;
+  font-weight: 500;
+  font-weight: bolder;
+  padding-top: 5px;
+}
+.data .job {
+  font-size: 15px;
+  font-weight: 400;
+  font-weight: bold;
+}
+.profile-card .media {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.media .link {
+  background-color: blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  height: 34px;
+  width: 34px;
+  border-radius: 50%;
+  margin: 0px 8px;
+  color: white;
+}
+.butn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+}
+.butn .btn {
+  margin: 0px 10px;
+  border-radius: 24px;
+  padding: 8px 24px;
+  background-color: #4070f4;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.butn .btn:hover {
+  background-color: #0e40f1;
+}
+.profile-card .num {
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+}
+.num .num1 {
+  display: flex;
+  align-items: center;
+  color: #333;
+  padding: 0px 20px;
+  border-right: 2px solid #e7e7e7;
+}
+.num1:last-child {
+  border-right: none;
+}
+.num i {
+  font-size: 18px;
+  margin-right: 6px;
+}
+.profile-card::before {
+  content: "";
+  position: absolute;
+  background-color: #4070f4;
+  height: 41%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  border-radius: 24px 24px 0 0;
+}
