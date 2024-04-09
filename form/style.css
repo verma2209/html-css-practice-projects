@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #1abc9c;
+  overflow: hidden;
+}
+.container {
+  max-width: 440px;
+  padding: 0px 20px;
+  margin: 170px auto;
+}
+.min {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.min .main {
+  line-height: 80px;
+  padding-left: 20px;
+  border-radius: 5px 5px 0 0;
+  background: #16a085;
+  color: white;
+
+  font-size: 25px;
+  font-weight: 600;
+}
+.min form {
+  padding: 30px 20px 25px 20px;
+}
+.min form .row {
+  height: 45px;
+  margin-bottom: 15px;
+  position: relative;
+}
+.min form .row input {
+  height: 100%;
+  width: 100%;
+  padding-left: 60px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+.min form .row i {
+  position: absolute;
+  width: 47px;
+  height: 100%;
+  color: #fff;
+  font-size: 18px;
+  background: #16a085;
+  border: 1px solid #16a085;
+  border-radius: 5px 0 0 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.min form .button input {
+  padding-left: 0px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 20px;
+  background-color: #16a085;
+  border: 1px solid #16a085;
+  cursor: pointer;
+}
+.min form .button input:hover {
+  background: #12876f;
+}
+.min form .pass {
+  margin: -8px 0 15px 0;
+  text-align: center;
+}
+.min form .pass a {
+  color: #16a085;
+  font-size: 17px;
+  text-decoration: none;
+}
+.min form .pass a:hover {
+  text-decoration: underline;
+}
+.min form .sign {
+  margin-top: 20px;
+  text-align: center;
+}
+.min form .sign a {
+  color: #16a085;
+  font-size: 18px;
+  text-decoration: none;
+  text-align: center;
+}
+.min form .sign:hover a {
+  text-decoration: underline;
+}
+.min form .row input:focus {
+  border-color: #16a085;
+  box-shadow: inset 0px 0px 2px 2px rgba(26, 188, 156, 0.25);
+}
